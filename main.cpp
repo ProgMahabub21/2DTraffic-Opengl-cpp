@@ -66,17 +66,20 @@ void Car(int x, int y)
 {
 
     glBegin(GL_POLYGON);
-    glVertex2f(20+x,y+70);
-    glVertex2f(35+x,y+70);
+    glVertex2f(10+x,y+65);
     glVertex2f(35+x,y+65);
-    glVertex2f(40+x,y+65);
-    glVertex2f(40+x,y+58);
-    glVertex2f(14+x,y+58);
-    glVertex2f(14+x,y+65);
-    glVertex2f(20+x,y+65);
-    glVertex2f(20+x,y+70);
-
+    glVertex2f(35+x,y+58);
+    glVertex2f(10+x,y+58);
     glEnd();
+    glColor3ub(255,0,0);
+    glBegin(GL_POLYGON);
+    glVertex2f(14+x,y+65);
+    glVertex2f(31+x,y+65);
+    glVertex2f(28+x,y+70);
+    glVertex2f(17+x,y+70);
+    glEnd();
+
+
 }
 void signalLight()
 {
@@ -122,7 +125,7 @@ glClear(GL_COLOR_BUFFER_BIT);
 Road();
 triangle();
 glColor3ub(255,255,0);
-Car(10,0);
+Car(0,0);
 signalLight();
 glFlush(); // Render now
 }
