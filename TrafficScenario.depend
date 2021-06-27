@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1624446668 source:g:\7th semester 2021-22(summer)\cs graphics\class_lab\labtask3.0\trafficscenario\main.cpp
+1624788700 source:g:\7th semester 2021-22(summer)\cs graphics\class_lab\labtask3.0\trafficscenario\main.cpp
 	<windows.h>
 	<GL/glut.h>
 	<math.h>
